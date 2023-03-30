@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--  Base theme -->
+    <style name="HyparzTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorGrey</item>
+        <item name="colorPrimaryDark">@color/colorGrey</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorGrey</item>
+        <item name="colorControlHighlight">@color/colorGrey</item>
+        <!-- app background default color -->
+        <item name="android:windowBackground">@color/colorWhite</item>
+        <!-- app text color primary default -->
+        <item name="android:textColorPrimary">@color/colorGrey</item>
+        <!-- disable the multi-touch -->
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:statusBarColor">@color/colorGrey</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+    </style>
+
+</resources>
